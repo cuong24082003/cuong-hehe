@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mô phỏng cảm biến và joystick</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #4caf50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            margin: 10px auto;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+            max-width: 400px;
+        }
+
+        .card h2 {
+            margin-top: 0;
+            color: #4caf50;
+        }
+
+        .led-display {
+            font-family: monospace;
+            text-align: center;
+            margin-top: 10px;
+            font-size: 24px;
+            background: #222;
+            color: #0f0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Trình mô phỏng cảm biến và joystick</h1>
+    </header>
+    <main>
+        <div class="card">
+            <h2>Nhiệt độ và độ ẩm</h2>
+            <p id="temp">Nhiệt độ: Đang tải...</p>
+            <p id="humidity">Độ ẩm: Đang tải...</p>
+        </div>
+
+        <div
